@@ -1,0 +1,17 @@
+{
+    "extends": ["airbnb"],
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "no-shadow": ["error", { "builtinGlobals": false, "hoist": "all", "allow": ["err","error","callback","cb","response","controller","message","convo","sharel"] }],
+        "object-shorthand": ["error", "consistent"],
+        "no-param-reassign": ["error", { "props": false }],
+        "global-require": 0,
+        "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+        "strict": ["error", "global"],
+        "object-curly-spacing": ["error", "never"],
+        "no-console": "off",
+    }
+}
